@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    margin: 50px;
+}
+
+.launch {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.24);
+    padding: 10px;
+    margin-bottom: 40px;
+    width: 90%;
+    height: 300px;
+}
+
+.launch img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.details {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+p {
+    padding-top: 10px;
+    padding-right: 100px;
+}
+
+button {
+    margin-top: 15px;
+    width: 150px;
+}
