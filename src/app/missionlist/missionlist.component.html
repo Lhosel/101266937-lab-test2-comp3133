@@ -6,7 +6,7 @@
 
 <h1 class="title">Space X - Mission Launch List</h1>
 
-<div *ngFor="let mission of missions" [class.selected]="mission === selected">
+<div *ngFor="let mission of missions">
     <div class="launch">
         <img [src]="mission.links.mission_patch_small" />
         <div class="details">
